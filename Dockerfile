@@ -1,7 +1,7 @@
 FROM debian:stretch
 MAINTAINER IronicBadger <alexktz@gmail.com>
 
-ENV SNAPRAID_VERSION="11.3"
+ENV SNAPRAID_VERSION="11.4"
 
 # Builds SnapRAID from source
 RUN apt-get update && \
